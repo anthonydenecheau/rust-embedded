@@ -1,0 +1,3 @@
+docker build -t rust-embedded .
+
+docker build -t rust-embedded . && docker run  -v /mnt/c/developpement/data/rust/projets:/opt/projets -it rust-embedded /bin/sh 
