@@ -1,3 +1,9 @@
 docker build -t rust-embedded .
 
 docker build -t rust-embedded . && docker run  -v /mnt/c/developpement/data/rust/projets:/opt/projets -it rust-embedded /bin/sh 
+
+## VSCode dev containers
+
+https://code.visualstudio.com/docs/devcontainers/create-dev-container
+
+https://github.com/devcontainers/images/blob/main/src/rust/README.md
